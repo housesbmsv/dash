@@ -1,3 +1,11 @@
+// src/App.jsx
+import React from 'react'
+import Dashboard from './pages/Dashboard'  // Asegúrate de que exista este fichero
+
+export default function App() {
+  return <Dashboard />
+}
+
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
